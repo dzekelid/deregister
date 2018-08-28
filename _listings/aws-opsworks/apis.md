@@ -10,8 +10,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Deregister
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/deregister/master/_listings/aws-opsworks/apis.md
 specificationVersion: "0.14"
 apis:
@@ -28,6 +28,50 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/deregister/master/_listings/aws-opsworks/actionderegisterecscluster-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/deregister/master/_listings/aws-opsworks/actionderegisterecscluster-get-openapi.md
+- name: AWS OpsWorks API - Deregister Elastic IP
+  x-api-slug: actionderegisterelasticip-get
+  description: Deregisters a specified Elastic IP address.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
+  humanURL: https://aws.amazon.com/opsworks/
+  baseURL: :///
+  tags: Amazon Web Services, Orchestration, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deregister/master/_listings/aws-opsworks/actionderegisterelasticip-get-openapi.md
+- name: AWS OpsWorks API - Deregister Instance
+  x-api-slug: actionderegisterinstance-get
+  description: Deregister a registered Amazon EC2 or on-premises instance.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
+  humanURL: https://aws.amazon.com/opsworks/
+  baseURL: :///
+  tags: Amazon Web Services, Orchestration, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deregister/master/_listings/aws-opsworks/actionderegisterinstance-get-openapi.md
+- name: AWS OpsWorks API - Deregister Rds Db Instance
+  x-api-slug: actionderegisterrdsdbinstance-get
+  description: Deregisters an Amazon RDS instance.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
+  humanURL: https://aws.amazon.com/opsworks/
+  baseURL: :///
+  tags: Amazon Web Services, Orchestration, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deregister/master/_listings/aws-opsworks/actionderegisterrdsdbinstance-get-openapi.md
+- name: AWS OpsWorks API - Deregister Volume
+  x-api-slug: actionderegistervolume-get
+  description: Deregisters an Amazon EBS volume.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
+  humanURL: https://aws.amazon.com/opsworks/
+  baseURL: :///
+  tags: Amazon Web Services, Orchestration, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deregister/master/_listings/aws-opsworks/actionderegistervolume-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.marketplace.metering.service.api.gallery.streamdata.io

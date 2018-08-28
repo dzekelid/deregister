@@ -1,9 +1,11 @@
+---
 swagger: "2.0"
 x-collection-name: AWS OpsWorks
-x-complete: 1
+x-complete: 0
 info:
-  title: AWS OpsWorks API
+  title: AWS OpsWorks API Deregister Instance
   version: 1.0.0
+  description: Deregister a registered Amazon EC2 or on-premises instance.
 schemes:
 - http
 produces:
@@ -64,41 +66,17 @@ paths:
       tags:
       - Deregister
       - Instance
-  /?Action=DeregisterRdsDbInstance:
-    get:
-      summary: Deregister Rds Db Instance
-      description: Deregisters an Amazon RDS instance.
-      operationId: deregisterRdsDbInstance
-      x-api-path-slug: actionderegisterrdsdbinstance-get
-      parameters:
-      - in: query
-        name: RdsDbInstanceArn
-        description: The Amazon RDS instances ARN
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Deregister
-      - Rds
-      - Db
-      - Instance
-  /?Action=DeregisterVolume:
-    get:
-      summary: Deregister Volume
-      description: Deregisters an Amazon EBS volume.
-      operationId: deregisterVolume
-      x-api-path-slug: actionderegistervolume-get
-      parameters:
-      - in: query
-        name: VolumeId
-        description: The AWS OpsWorks Stacks volume ID, which is the GUID that AWS
-          OpsWorks Stacks assigned to the instance when you registered the volume
-          with the stack, not the Amazon EC2 volume ID
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Deregister
-      - Volume
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---

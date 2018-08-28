@@ -18,11 +18,23 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Deregister
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/deregister/master/_listings/aws-elastic-load-balancing/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Elastic Load Balancing API - Deregister Targets
+  x-api-slug: actionderegistertargets-get
+  description: Deregisters the specified targets from the specified target group.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_ElasticLoadBalancing.png
+  humanURL: https://aws.amazon.com/elasticloadbalancing/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Servers, Performance, Availability, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deregister/master/_listings/aws-elastic-load-balancing/actionderegistertargets-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.elastic.beanstalk.api.gallery.streamdata.io
